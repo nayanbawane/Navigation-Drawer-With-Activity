@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DMART">
-        <activity android:name=".NavigationActivity.PrivacyPolicy"></activity>
+        <activity android:name=".Card.Card1"></activity>
+        <activity android:name=".NavigationActivity.PrivacyPolicy" />
         <activity android:name=".NavigationActivity.Developer" />
         <activity android:name=".NavigationActivity.Feedback" />
         <activity android:name=".NavigationActivity.ShareLink" />
         <activity android:name=".NavigationActivity.OtherApps" />
         <activity android:name=".NavigationActivity.RateThisApp" />
         <activity android:name=".NavigationActivity.RateThisApp" />
-        <activity android:name=".MainHomeActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

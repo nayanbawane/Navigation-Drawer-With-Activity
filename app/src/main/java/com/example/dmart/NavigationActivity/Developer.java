@@ -5,7 +5,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.example.dmart.MainHomeActivity;
+import com.example.dmart.MainActivity;
 import com.example.dmart.R;
 
 
@@ -20,34 +20,34 @@ public class Developer extends AppCompatActivity {
     }
 
     public void ClickMenu(View view) {
-        MainHomeActivity.openDrawer(this.drawerLayout);
+        MainActivity.openDrawer(this.drawerLayout);
     }
 
     public void ClickLogo(View view) {
-        MainHomeActivity.closeDrawer(this.drawerLayout);
+        MainActivity.closeDrawer(this.drawerLayout);
     }
 
     public void ClickHome(View view) {
-        MainHomeActivity.redirectActivity(this, MainHomeActivity.class);
+        MainActivity.redirectActivity(this, MainActivity.class);
     }
 
     public void ClickRateThisApp(View view) {
-        MainHomeActivity.redirectActivity(this, RateThisApp.class);
+        MainActivity.redirectActivity(this, RateThisApp.class);
     }
 
 
     public void ClickOtherApps(View view) {
-        MainHomeActivity.redirectActivity(this, OtherApps.class);
+        MainActivity.redirectActivity(this, OtherApps.class);
 
     }
 
     public void ClickShareLink(View view) {
-        MainHomeActivity.redirectActivity(this, ShareLink.class);
+        MainActivity.redirectActivity(this, ShareLink.class);
 
     }
 
     public void ClickFeedback(View view) {
-        MainHomeActivity.redirectActivity(this, Feedback.class);
+        MainActivity.redirectActivity(this, Feedback.class);
     }
 
     public void ClickDeveloper(View view) {
@@ -55,17 +55,17 @@ public class Developer extends AppCompatActivity {
     }
 
     public void ClickPrivacyPolicy(View view) {
-        MainHomeActivity.redirectActivity(this, PrivacyPolicy.class);
+        MainActivity.redirectActivity(this, PrivacyPolicy.class);
     }
 
 
     public void ClickLogout(View view) {
-        MainHomeActivity.logout(this);
+        MainActivity.logout(this);
     }
 
     /* access modifiers changed from: protected */
     public void onPause() {
         super.onPause();
-        MainHomeActivity.closeDrawer(this.drawerLayout);
+        MainActivity.closeDrawer(this.drawerLayout);
     }
 }
