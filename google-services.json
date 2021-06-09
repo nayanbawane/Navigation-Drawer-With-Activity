@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "89220411584",
+    "project_id": "quick-english-speaking-app",
+    "storage_bucket": "quick-english-speaking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89220411584:android:3d3bb214fc4fb7cf5d7d25",
+        "android_client_info": {
+          "package_name": "com.example.quickenglishspeaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89220411584-l4468klrvfmq43p9ouoma3rhdif3q33l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickenglishspeaking",
+            "certificate_hash": "fc87f5e74bb5025eb681e76060c9fa525ce93700"
+          }
+        },
+        {
+          "client_id": "89220411584-2cprua5uocc8vol36enaj4up8bsf8ls5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhIj1gvRJtVoa_dkpSYds344xGlVPRyH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89220411584-2cprua5uocc8vol36enaj4up8bsf8ls5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

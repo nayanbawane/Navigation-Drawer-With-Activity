@@ -1,21 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dmart">
+    package="com.example.quickenglishspeaking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DMART">
-        <activity android:name=".Card.Card1"></activity>
+        android:theme="@style/Theme.QuickEnglishSpeaking">
+        <activity android:name=".Card.Card50" />
+
+        <activity android:name=".Card.Card49" />
+
+        <activity android:name=".Card.Card48" />
+
+        <activity android:name=".Card.Card47" />
+
+        <activity android:name=".Card.Card46" />
+
+        <activity android:name=".Card.Card45" />
+
+        <activity android:name=".Card.Card44" />
+
+        <activity android:name=".Card.Card43" />
+
+        <activity android:name=".Card.Card42" />
+
+        <activity android:name=".Card.Card41" />
+
+        <activity android:name=".Card.Card40" />
+
+        <activity android:name=".Card.Card39" />
+
+        <activity android:name=".Card.Card38" />
+
+        <activity android:name=".Card.Card37" />
+
+        <activity android:name=".Card.Card36" />
+
+        <activity android:name=".Card.Card35" />
+
+        <activity android:name=".Card.Card34" />
+
+        <activity android:name=".Card.Card33" />
+
+        <activity android:name=".Card.Card32" />
+
+        <activity android:name=".Card.Card31" />
+
+        <activity android:name=".Card.Card30" />
+
+        <activity android:name=".Card.Card29" />
+
+        <activity android:name=".Card.Card28" />
+
+        <activity android:name=".Card.Card27" />
+
+        <activity android:name=".Card.Card26" />
+
+        <activity android:name=".Card.Card25" />
+
+        <activity android:name=".Card.Card24" />
+
+        <activity android:name=".Card.Card23" />
+
+        <activity android:name=".Card.Card22" />
+
+        <activity android:name=".Card.Card21" />
+
+        <activity android:name=".Card.Card20" />
+
+        <activity android:name=".Card.Card19" />
+
+        <activity android:name=".Card.Card18" />
+
+        <activity android:name=".Card.Card17" />
+
+        <activity android:name=".Card.Card16" />
+
+        <activity android:name=".Card.Card15" />
+
+        <activity android:name=".Card.Card14" />
+
+        <activity android:name=".Card.Card13" />
+
+        <activity android:name=".Card.Card12" />
+
+        <activity android:name=".Card.Card11" />
+
+        <activity android:name=".Card.Card10" />
+
+        <activity android:name=".Card.Card9" />
+
+        <activity android:name=".Card.Card8" />
+
+        <activity android:name=".Card.Card7" />
+
+        <activity android:name=".Card.Card6" />
+
+        <activity android:name=".Card.Card5" />
+
+        <activity android:name=".Card.Card4" />
+
+        <activity android:name=".Card.Card3" />
+
+        <activity android:name=".Card.Card2" />
+
+        <activity android:name=".Card.Card1" />
+
         <activity android:name=".NavigationActivity.PrivacyPolicy" />
         <activity android:name=".NavigationActivity.Developer" />
         <activity android:name=".NavigationActivity.Feedback" />
         <activity android:name=".NavigationActivity.ShareLink" />
         <activity android:name=".NavigationActivity.OtherApps" />
-        <activity android:name=".NavigationActivity.RateThisApp" />
         <activity android:name=".NavigationActivity.RateThisApp" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -23,7 +123,21 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
